@@ -4,6 +4,7 @@
 var chai = require('chai'),
 	expect = chai.expect,
 	chaiHTTP = require('chai-http');
+	gulp = require('gulp');
 //var http_router = require(__dirname + '/../lib/httpframework');
 
 chai.use(chaiHTTP);
